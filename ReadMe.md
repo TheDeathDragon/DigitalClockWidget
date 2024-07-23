@@ -9,10 +9,10 @@
 ```xml
 <appwidget
 screen="0"
-   x="0"
+   x="1"
    y="1"
-   spanX="4"
-   spanY="1"
+   spanX="2"
+   spanY="2"
    packageName="la.shiro.widget"
    className="la.shiro.widget.DigitalClockWidget"/> 
 ```
