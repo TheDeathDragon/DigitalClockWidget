@@ -3,6 +3,8 @@ package la.shiro.widget
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
 import android.content.Context
+import android.content.res.Configuration
+import android.os.Build
 import android.widget.RemoteViews
 
 class DigitalClockWidget : AppWidgetProvider() {

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">时钟小部件</string>
+    <string name="clock_time_format">MM月dd日 EE</string>
 </resources>
