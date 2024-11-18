@@ -8,6 +8,8 @@ plugins {
 }
 
 val apkFileName = "ClockWidget.apk"
+val currentVersionDate: Int = SimpleDateFormat("yyMMdd").format(Date()).toInt()
+val currentVersion: String = SimpleDateFormat("yy.MM.dd").format(Date())
 
 android {
     namespace = "la.shiro.widget"
@@ -17,8 +19,8 @@ android {
         applicationId = "la.shiro.widget"
         minSdk = 29
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = currentVersionDate
+        versionName = currentVersion
     }
     signingConfigs {
         getByName("debug") {
